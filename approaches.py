@@ -2,7 +2,7 @@
 n=10'''
 
 #TC-O(n^2),SC-O(1)
-n=int(input("Enter a term:"))
+'''n=int(input("Enter a term:"))
 sum=0
 i=1
 for k in range(n):
@@ -13,10 +13,10 @@ for k in range(n):
     print(f"Term {k+1}={i}/{i+1}!={term}")
     sum+=term
     i+=2
-print("Sum",sum)
+print("Sum",sum)'''
 
 #TC-O(n),SC-O(1)
-import math
+'''import math
 n=int(input("Enter a term:"))
 sum=0
 odd=1
@@ -27,28 +27,28 @@ for i in range(n):
     sum+=term
     odd+=2
     even+=2
-print(sum)
+print(sum)'''
 
 #back tracking
 #TC-O(n+1),SC-O(1)
-def print_numbers(i,n):
+'''def print_numbers(i,n):
     if i>n:
         return
     print(i)
     print_numbers(i+1,n)
 n=int(input("Enter a number:"))
-print_numbers(1,n)
+print_numbers(1,n)'''
 
 #tree recursion
 #TC-O(),SC-O()
-def tree(n):
+'''def tree(n):
     if n==0:
         return
     print(n)
     tree(n-1)
     tree(n-1)
 n=int(input("Enter a number:"))
-tree(n)
+tree(n)'''
 
 #fibonocci series
 '''f(n)=f(n-1)+f(n-2)
