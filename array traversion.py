@@ -1,5 +1,5 @@
 #TC-O(n^2),SC-O(1)
-''' int(input("Enter the size of matrix:"))
+int(input("Enter the size of matrix:"))
 arr = [[0]*n for _ in range(n)]
 top = 0
 left = 0
@@ -36,11 +36,12 @@ while top <= bottom and left <= right:
 
 # Print the spiral matrix
 for row in arr:
-    print(*row)'''
+    print(*row)
 
 
+#another method
 # Traversal of above matrix
-'''n=int(input('Size of matrix: '))
+n=int(input('Size of matrix: '))
 arr=[[0]*n for _ in range(n)]
 print(arr)
 matrix=[]
@@ -73,4 +74,4 @@ while left<=right and top<=bottom:
     for i in range(bottom,top-1,-1):
         print(matrix[i][left],end='  ')
         num+=1
-    left+=1'''
+    left+=1
