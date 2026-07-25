@@ -1,6 +1,6 @@
 #binary search - binary search , first ,last, count occ , search in an rotated array , integer sqrt
 #intger sqrt pattern
-'''#tc = log(n) sc = 0(1)
+#tc = log(n) sc = 0(1)
 n = int(input("enter a number "))
 left = 0
 rigth = n   
@@ -15,10 +15,9 @@ while left <= rigth:
         left = mid+1
     else:
         rigth = mid-1
-print("intger sqrt:",ans) '''
+print("intger sqrt:",ans) 
 
 # rotate count using binnary search pattern
-'''
 n = list(map(int, input("enter").split()))
 left = 0
 rigth = len(n)-1
@@ -28,4 +27,4 @@ while left < rigth:
         left = mid+1
     else:
         rigth = mid
-print("rotation count",left)'''
+print("rotation count",left)
