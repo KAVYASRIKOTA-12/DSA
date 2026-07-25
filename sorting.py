@@ -1,15 +1,15 @@
 #bubble sort
 #TC-O(n),SC-O(n^2)
-'''arr=list(map(int,input("Enter the values:").split()))
+arr=list(map(int,input("Enter the values:").split()))
 n=len(arr)
 for i in range(n-1):
     for j in range(n-i-1):
         if arr[j]>arr[j+1]:
             arr[j],arr[j+1]=arr[j+1],arr[j]
-print(*arr)'''         
+print(*arr)      
 
 #selection sort
-'''arr=list(map(int,input("Enter the values:").split()))
+arr=list(map(int,input("Enter the values:").split()))
 n=len(arr)
 for i in range(n-1):
     min_index=i
@@ -17,10 +17,10 @@ for i in range(n-1):
         if arr[j]<arr[min_index]:
             min_index=j  
     arr[i],arr[min_index]=arr[min_index],arr[i]
-print(*arr)'''          
+print(*arr)    
 
 #insertion sort
-'''arr=list(map(int,input("Enter values:").split()))
+arr=list(map(int,input("Enter values:").split()))
 n=len(arr)
 for i in range(1,n):
     x=arr[i]
@@ -29,7 +29,7 @@ for i in range(1,n):
         arr[j+1]=arr[j]
         j-=1
     arr[j+1]=x    
-print(*arr)'''
+print(*arr)
 
 
 
