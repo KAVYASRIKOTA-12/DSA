@@ -1,5 +1,5 @@
 #insert at end
-'''class node:
+class node:
      def __init__(self, data):
          self.data=data
          self.next= None
@@ -13,11 +13,11 @@ temp =head
 while temp:
     print(temp.data, end='->')
     temp=temp.next
-print("tail")'''
+print("tail")
 
 
 #insert at begin-delete at end
-'''class node:
+class node:
     def __init__(self,data):
         self.data=data
         self.next=None
@@ -47,10 +47,10 @@ temp=head
 while temp:
     print(temp.data,end='->')
     temp=temp.next
-print('tail')'''
+print('tail')
 
 #insert at end-delete from beginning
-'''class node:
+class node:
     def __init__(self, data):
         self.data=data
         self.next= None
@@ -74,10 +74,10 @@ temp=head
 while temp:
     print(temp.data,end='->')
     temp=temp.next
-print("tail")'''
+print("tail")
 
 #insert by position
-'''class node:
+class node:
     def __init__(self,data):
         self.data=data
         self.next=None
@@ -110,4 +110,4 @@ temp=head
 while temp:
     print(temp.data,end='->')
     temp=temp.next
-print("tail")'''
+print("tail")
