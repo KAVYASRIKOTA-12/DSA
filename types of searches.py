@@ -1,5 +1,6 @@
 #types of searchs - liner search (un/s) , binary (s) , jump (S) , interpolation (S) , exponential(s)
 #binary search
+'''
 arr = list(map(int, input("Enter elements :").split()))
 t = int(input("enter the target:"))
 left = 0
@@ -14,9 +15,10 @@ while left <= rigth:
     else:
         left += mid +1
 else:
-    print("element not found")  
+    print("element not found")  '''
 
 #jump
+'''
 arr=list(map(int,input("enter the elements:").split()))
 target=int(input("enter the target:"))
 n=len(arr)
@@ -31,4 +33,4 @@ for j in range(i,min(i+step,n)):
         found=True
         break
 if not found:
-    print("element not in array")
+    print("element not in array")'''
