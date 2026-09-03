@@ -21,12 +21,6 @@ It documents my learning journey as I build a strong foundation in problem-solvi
 - Strengthened analytical and logical thinking.
 - Built a solid foundation for advanced data structures and algorithms.
 
-
-
-## Author
-
-**Kavya Sri Kota**
-
 ---
 
 *"Consistent practice is the key to mastering Data Structures and Algorithms."*
